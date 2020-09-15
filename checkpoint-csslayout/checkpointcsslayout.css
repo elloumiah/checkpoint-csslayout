@@ -1,0 +1,299 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #747474;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+header img {
+  width: 268px;
+  height: 33px;
+}
+.main-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  padding: 20px 0;
+  z-index: 1;
+}
+.main-header li {
+  display: inline;
+  padding: 0 0.6em;
+  text-decoration: none;
+}
+
+.main-color {
+  color: #ababab;
+}
+.aboutus {
+  color: #00b39b;
+}
+.dropdown-content li a {
+  color: #ababab;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  border: none;
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  width: 250px;
+  display: none;
+  position: absolute;
+  top: 25px;
+  right: 5px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section h1 {
+  text-align: center;
+  color: #00b39b;
+}
+.introsection {
+  display: flex;
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+  margin: 0 140px;
+  justify-content: space-between;
+}
+.introsection p {
+  padding: 0 10px;
+}
+.servicesection {
+  display: flex;
+  margin: 0 140px;
+  justify-content: space-between;
+}
+.servicesection h2 {
+  font-size: 0.8em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: white;
+}
+.servicesection h1 {
+  font-size: 1.625em;
+  color: #fff;
+  margin-top: 0.3em;
+  margin: 0.67em 0;
+  font-weight: 100;
+}
+.sectionpatient {
+  border-radius: 15px;
+  background: #00ccb1;
+  padding: 0 20px;
+  width: 477px;
+  height: 392px;
+  position: relative;
+  overflow: hidden;
+}
+.sectiondoctor {
+  border-radius: 15px;
+  background-color: #3d83df;
+  padding: 0 14px;
+  width: 477px;
+  height: 392px;
+  position: relative;
+  overflow: hidden;
+}
+.service-section {
+  position: absolute;
+  width: 400px;
+  height: 240px;
+  left: 200px;
+}
+
+.site {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.site div h1 {
+  color: #00b39b;
+  font-size: 2em;
+  margin: 0.8em 0;
+  line-height: 1.2;
+  font-weight: 400;
+  margin: 0 140px;
+}
+
+.brands-intro {
+  flex:1;
+}
+
+.brands {
+display: flex;
+flex-wrap: wrap;
+flex:1;
+}
+
+.brand-link {
+  fill: grey;
+  justify-content: space-between;
+  width: 120px;
+  padding : 0 10px;
+}
+.brand-link:hover {
+  fill: #00b39b;
+}
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  background: #e5faf8;
+  margin-top: 20px;
+  padding: 10px;
+  height: 500px;
+}
+.first-part-presentation {
+  justify-content: space-around;
+  /* align-items: center; */
+  /* padding:10px 100px; */
+  flex: 1.2;
+  position: relative;
+  overflow: hidden;
+}
+.first-part-presentation h1 {
+  font-weight: 100;
+  padding-left: 10px;
+}
+.first-part-presentation p {
+  padding-left: 200px;
+  padding-right: 100px;
+  font-size: 0.8125em;
+}
+.first-part-presentation img {
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+.presentation-item {
+  display: flex;
+  margin: 10px 100px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+
+  flex-wrap: wrap;
+  flex: 1;
+}
+.item {
+  margin: 10px;
+  height: 200px;
+  width: 170px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.translated-item {
+  transform: translateY(-20px);
+}
+
+/*  before last part main */
+.last-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 140px;
+  padding: 0 300px;
+}
+.last-section h1 {
+  margin: 50px;
+  font-weight: 100;
+}
+.last-section p {
+  text-align: center;
+}
+.total-country {
+  margin: 10px 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.country {
+  box-shadow: whitesmoke;
+  margin: 10px;
+  /* align-self: center; */
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.country:hover {
+  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.13);
+}
+.country img {
+  border-radius: 10px;
+  width: 308px;
+  height: 277px;
+}
+.country-color {
+  display: flex;
+  padding-top: 15px;
+  color: #ababab;
+}
+.country-color button {
+  margin-left: 170px;
+  background: #3d83df;
+  text-decoration: none;
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+footer {
+  border-top: 1px solid #eef2f2;
+  font-size: 0.75em;
+  color: #ababab;
+  text-align: center;
+  padding: 1em 0;
+}
